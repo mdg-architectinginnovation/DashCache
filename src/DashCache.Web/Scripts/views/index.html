@@ -1,0 +1,25 @@
+﻿<div>
+    {{title}}
+
+    <br />
+    <br />
+
+    <b>Students</b>
+    <div ng-repeat="student in students">
+        <li>{{student.firstName}} {{student.lastName}}</li>
+    </div>
+
+    <br />
+
+    <b>Courses</b>
+    <div ng-repeat="course in courses">
+        <li>{{course.name}}</li>
+    </div>
+
+    <br />
+
+    <b>Values</b>
+    <div ng-repeat="value in values">
+        <li>{{value}}</li>
+    </div>
+</div>
